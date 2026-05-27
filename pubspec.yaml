@@ -1,0 +1,41 @@
+name: vitebsk_museums
+description: Interactive map of Vitebsk museums - Lab 9, Task 4
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.6.1
+  dio: ^5.7.0
+  hive_flutter: ^1.1.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  fl_chart: ^0.68.0
+  flutter_local_notifications: ^17.2.4
+  package_info_plus: ^8.1.1
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.0
+  crypto: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.12
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
